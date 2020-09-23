@@ -22,3 +22,6 @@ You can take a look at [this list](http://www.degraeve.com/reference/urlencoding
 
 5. Create a dynamic route at `get '/:operation/:number1/:number2'` that accepts an operation (add, subtract, multiply or divide) and performs the operation on the two numbers provided, returning a `String`. For example, going to `/add/1/2` should render `3` as a `String`.
 
+	
+Tyler Taylor A MINUTE AGO
+you can create an empty string variable before the loop, then in the loop add the phrase to that string, then return the string when its done
